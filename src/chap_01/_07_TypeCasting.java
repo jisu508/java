@@ -41,7 +41,13 @@ public class _07_TypeCasting {
 
         String s2 = String.valueOf(98.8);
         s2 = Double.toString(98.8);
-        System.out.println();
+        System.out.println(s2); // 98.8
 
+        // 문자열을 숫자로
+        int i = Integer.parseInt("93");
+        System.out.println(i); //93
+        double d = Double.parseDouble("98.8");
+
+        // int error = Integer.parseInt("자바"); 숫자 형태가 아니므로 안 됨
     }
 }
